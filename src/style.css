@@ -13,7 +13,7 @@ header {
     color: white;
 }
 
-header img {
+#fedora-icon {
     display: block;
     margin: 0 auto 1rem;
 }
@@ -24,21 +24,45 @@ nav {
     text-align: center;
 }
 
-nav ul {
+.menu {
     list-style: none;
     padding: 0;
     margin: 0;
 }
 
-nav ul li {
+.menu-list {
     display: inline-block;
     margin: 0 1rem;
 }
 
-nav ul li a {
+.menu-text {
     text-decoration: none;
     color: #294172;
     font-weight: bold;
+}
+
+.enviroments-container {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.enviroments-child {
+    width: 100px;
+    height: 100px;
+    border-radius: 16px;
+    position: relative;
+}
+
+#enviroments-kde-plasma-icon {
+    width: 80px;
+    position: absolute;
+    left: 15px;
+}
+
+#enviroments-gnome-icon {
+    width: 80px;
+    position: absolute;
+    left: 15px;
 }
 
 main {
